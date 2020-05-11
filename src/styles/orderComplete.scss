@@ -1,0 +1,23 @@
+.order-successfull {
+    background: #e8ffed;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+.order-complete {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-weight: bold;
+    font-size: 16px;
+    color: #373a3a;
+}
+
+.image {
+    height: 70px;
+    width: 70px;
+}

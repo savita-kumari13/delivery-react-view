@@ -1,0 +1,29 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.order-no {
+  font-weight: bold;
+  font-size: 23px;
+  color: #404444;
+}
+.close {
+    position: absolute;
+    opacity: 1;
+  }
+  .close:before, .close:after {
+    position: absolute;
+    left: 590px;
+    content: ' ';
+    height: 20px;
+    width: 2px;
+    background-color: #333;
+  }
+  .close:before {
+    transform: rotate(45deg);
+  }
+  .close:after {
+    transform: rotate(-45deg);
+  }
+  
