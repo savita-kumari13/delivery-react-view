@@ -14,10 +14,178 @@
     justify-content: space-evenly;
     font-weight: bold;
     font-size: 16px;
-    color: #373a3a;
+    color: #404444;
 }
 
 .image {
     height: 70px;
     width: 70px;
+}
+
+$border: 2px solid #6ED19B;
+
+.outer-circle {
+    background: #CBF8E2;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    position: relative;
+    border: $border;
+  }
+.inner-circle {
+    position: absolute;
+    background: #eef4fa;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    top: 23%;
+    border: $border;
+    left: 23%;
+  }
+
+.check {
+    display: inline-block;
+    transform: rotate(45deg);
+    height: 18px;
+    width: 8px;
+    border-bottom: $border;
+    position: absolute;
+    top: 18%;
+    left: 37%;
+    border-right: $border;
+}
+
+  $font-size: 8px;
+  $position: absolute;
+  $font-weight: bold;
+  $font-color: #575555;
+
+.order-O {
+    font-size: $font-size;
+    position: $position;
+    color: $font-color;
+    font-weight: $font-weight;
+    top: 13%;
+    left: 21%;
+    transform: rotate(-10deg);
+}
+
+.order-R {
+    font-size: $font-size;
+    position: $position;
+    color: $font-color;
+    font-weight: $font-weight;
+    top: 7%;
+    left: 32%;
+    transform: rotate(-24deg);
+}
+
+.order-D {
+    font-size: $font-size;
+    position: $position;
+    color: $font-color;
+    font-weight: $font-weight;
+    top: 6%;
+    left: 44%;
+    transform: rotate(-3deg);
+}
+
+.order-E {
+    font-size: $font-size;
+    position: $position;
+    color: $font-color;
+    font-weight: $font-weight;
+    top: 7%;
+    left: 57%;
+    transform: rotate(8deg);
+}
+
+.order-RR {
+    font-size: $font-size;
+    position: $position;
+    color: $font-color;
+    font-weight: $font-weight;
+    top: 12%;
+    left: 68%;
+    transform: rotate(26deg);
+}
+
+.C {
+    position: $position;
+    top: 63%;
+    left: 12%;
+    font-weight: $font-weight;
+    font-size: $font-size;
+    transform: rotate(53deg);
+    color: $font-color;
+}
+
+.O {
+    position: $position;
+    top: 72%;
+    left: 18%;
+    font-weight: $font-weight;
+    font-size: $font-size;
+    transform: rotate(40deg);
+    color: $font-color;
+}
+
+.M {
+    position: $position;
+    top: 78%;
+    left: 28%;
+    font-weight: $font-weight;
+    font-size: $font-size;
+    transform: rotate(30deg);
+    color: $font-color;
+}
+
+.P {
+    position: $position;
+    top: 82%;
+    left: 40%;
+    font-weight: $font-weight;
+    font-size: $font-size;
+    transform: rotate(25deg);
+    color: $font-color;
+}
+
+.L {
+    position: $position;
+    top: 82%;
+    left: 51%;
+    font-weight: $font-weight;
+    font-size: $font-size;
+    transform: rotate(-10deg);
+    color: $font-color;
+}
+
+.E {
+    position: $position;
+    top: 80%;
+    left: 61%;
+    font-weight: $font-weight;
+    font-size: $font-size;
+    transform: rotate(-30deg);
+    color: $font-color;
+}
+
+.T {
+    position: $position;
+    top: 75%;
+    left: 69%;
+    font-weight: $font-weight;
+    font-size: $font-size;
+    transform: rotate(-40deg);
+    color: $font-color;
+}
+
+.EE {
+    position: $position;
+    top: 68%;
+    left: 78%;
+    font-weight: $font-weight;
+    font-size: $font-size;
+    transform: rotate(-48deg);
+    color: $font-color;
 }

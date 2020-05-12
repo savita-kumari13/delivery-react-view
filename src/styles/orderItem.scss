@@ -1,24 +1,25 @@
+$border-color: #f1eded;
+
 .order-item {
     display: flex;
     justify-content: space-around;
     padding-top: 20px;
     padding-bottom: 20px;
     height: 130px;
-    border-bottom: 0.1px solid #f1eded;
+    border-bottom: 0.1px solid $border-color;
 }
 
 .order-logo {
-    height: 70px;
-    width: 70px;
-    border: 1px solid #f1eded;
-    border-radius: 5px;
+    height: 80px;
+    width: 78px;
+    border: 1px solid $border-color;
+    border-radius: 8px;
 }
 
 .details-div {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    // margin-left: -60px;
 }
 
 .dispatched-on {
@@ -63,11 +64,10 @@
     flex-wrap: nowrap;
     a {
         background-color: transparent;
-        // padding: 2px;
         font-size: 13px;
         font-weight: 500;
         margin: .3em;
-        border: 1px solid #f1eded;
+        border: 1px solid $border-color;
         border-radius: 3px;
         color: #424141;
         text-decoration: none;
