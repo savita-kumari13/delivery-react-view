@@ -23,10 +23,10 @@ const OrderItem = ({order}) => {
                     </div>    
                 </div>
                 <div class="button-area-line">
-                <a href="#">E-way Bill<img src = {downloadImage} alt = "download" className = "download-image"/></a>
-                <a href="#">Invoice copy <img src = {downloadImage} alt = "download" className = "download-image"/></a>
-                <a href="#">Packing list <img src = {downloadImage} alt = "download" className = "download-image"/></a>
-                <a href="#">Challan copy <img src = {downloadImage} alt = "download" className = "download-image"/></a>
+                <button>E-way Bill<img src = {downloadImage} alt = "download" className = "download-image"/></button>
+                <button>Invoice copy <img src = {downloadImage} alt = "download" className = "download-image"/></button>
+                <button>Packing list <img src = {downloadImage} alt = "download" className = "download-image"/></button>
+                <button>Challan copy <img src = {downloadImage} alt = "download" className = "download-image"/></button>
                 </div>
             </div>
         </div>

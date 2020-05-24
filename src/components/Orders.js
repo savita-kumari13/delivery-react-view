@@ -1,4 +1,4 @@
-import React, {Component, Fragment} from 'react'
+import React, {Component} from 'react'
 import FedEx from '../assets/FedEx.jpg'
 import BlueDart from '../assets/BlueDart.jpg'
 import DTDC from '../assets/DTDC.jpg'
@@ -36,6 +36,24 @@ class Orders extends Component{
                     trackingId: 8149309425880464,
                     quantity: 66,
                     numberOfBoxes: 1,
+                },
+                {
+                    id: 2,
+                    logo: DTDC,
+                    organisation: 'DTDC',
+                    dispatchOn: 'July 23, 2019',
+                    trackingId: 8149309425880464,
+                    quantity: 66,
+                    numberOfBoxes: 1,
+                },
+                {
+                    id: 2,
+                    logo: DTDC,
+                    organisation: 'DTDC',
+                    dispatchOn: 'July 23, 2019',
+                    trackingId: 8149309425880464,
+                    quantity: 66,
+                    numberOfBoxes: 1,
                 }
             ]
         }
@@ -44,11 +62,11 @@ class Orders extends Component{
 
     render() {
         return (
-            <Fragment>
-                {this.state.ordersList.map((order) => {
-                    return <OrderItem key = {order.id} order = {order}/>
+            <div style = {{overflow:"auto", maxHeight: "300px"}}>
+                {this.state.ordersList.map((order)=> {
+                    return <OrderItem key={order.id} order = {order}/>
                 })}
-            </Fragment>
+            </div>
         )
     }
 }
